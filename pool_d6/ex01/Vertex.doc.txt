@@ -1,0 +1,15 @@
+<- Vertex --------------------------------------------------------------------------------
+
+The Vector class works with five characteristics:
+
+x axis coordinate (necessary);
+y axis coordinate (necessary);
+z depth coordinate (necessary);
+w (optional, default 1.0);
+color (optional, by default is worth a new instance of the color white.)
+
+Example:
+
+$vtxO  = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );
+$unitX = new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );
+-------------------------------------------------------------------------------- Vertex ->
